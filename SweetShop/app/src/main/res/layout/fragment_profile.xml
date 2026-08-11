@@ -1,0 +1,101 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- Logo Placeholder -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/img"
+            android:contentDescription="App Logo" />
+
+
+        <!-- Profile Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:background="@drawable/profile_card_bg"
+            android:elevation="6dp"
+            android:layout_marginBottom="32dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FFFFFF"
+            android:clipToPadding="false"
+            android:layout_gravity="center">
+
+            <TextView
+                android:text="User Name"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="#757575"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textViewUserName"
+                android:text="Loading..."
+                android:textSize="18sp"
+                android:textColor="#212121"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:text="Email"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="#757575"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textViewEmail"
+                android:text="Loading..."
+                android:textSize="18sp"
+                android:textColor="#212121"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:text="Phone Number"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="#757575"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textViewPhone"
+                android:text="Loading..."
+                android:textSize="18sp"
+                android:textColor="#212121"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Logout Button -->
+        <Button
+            android:id="@+id/buttonLogout"
+            android:text="Logout"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#D32F2F"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:paddingVertical="14dp" />
+    </LinearLayout>
+</ScrollView>

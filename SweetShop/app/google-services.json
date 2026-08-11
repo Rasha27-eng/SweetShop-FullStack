@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1015243443336",
+    "project_id": "sweet-shop-a30b6",
+    "storage_bucket": "sweet-shop-a30b6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015243443336:android:9bc6caef25d2464041e33d",
+        "android_client_info": {
+          "package_name": "com.example.sweetshop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB-W5z-4HBCaYv3nLJN7pWDNMi9Zz8tqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
